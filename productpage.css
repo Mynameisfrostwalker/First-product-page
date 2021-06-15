@@ -1,0 +1,136 @@
+body {
+    background: linear-gradient(35deg, #ccffff, #ffcccc);
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-size: 4em;
+    font-family: Algerian "Times-New-Roman";
+    margin-top: 3em;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 120px;
+    background: #ffcccc;
+    font-size: 1em;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+
+figure {
+    float: left;
+    width: 40%;
+    margin-bottom: 5px;
+}
+
+#horizontal {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+@media screen and (max-width:700px) {
+    figure {
+        float: none;
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        margin-left: 100px;
+    }
+    img {
+        margin-left: 70px;
+    }
+    nav {
+        height: 180px;
+    }
+    #horizontal {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+}
+
+li {
+    list-style-type: none;
+    margin-right: 10px;
+    margin-top: 20px;
+    width: auto;
+    margin-bottom: 5px;
+}
+
+#closer {
+    margin-right: 250px;
+    text-align: center;
+}
+
+h2 {
+    position: relative;
+    top: -50px;
+}
+
+p {
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 120px;
+}
+
+h3 {
+    text-align: justify;
+    margin-bottom: -20px;
+}
+
+#products {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.used {
+    border: 2px solid black;
+    box-shadow: 4px 4px 3px 3px rgba(0, 0, 0, 0.7);
+    width: 390px;
+    background-color: lightgray;
+    margin-top: -15px;
+    height: 40px;
+}
+
+video {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+#moved {
+    margin-top: -15px;
+    margin-left: -40px;
+}
+
+@media screen and (max-width:700px) {
+    #products {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+form {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+#adjust {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
